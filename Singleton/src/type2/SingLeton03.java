@@ -11,5 +11,11 @@ public class SingLeton03 {
 		}
 		return instance;
 	}
+	
+	public static void main(String[] args) {
+		SingLeton03 singLeton03=SingLeton03.getInstance();
+		SingLeton03 singLeton032=SingLeton03.getInstance();
+		System.out.println(singLeton03==singLeton032);
+	}
 
 }
