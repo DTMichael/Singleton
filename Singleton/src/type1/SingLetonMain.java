@@ -1,3 +1,4 @@
+package type1;
 
 public class SingLetonMain {
 
