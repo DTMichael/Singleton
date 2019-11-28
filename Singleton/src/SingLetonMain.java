@@ -6,7 +6,7 @@ public class SingLetonMain {
 		SingLeton0 SingLeton02=SingLeton0.getInstance();
 		if(SingLeton01==SingLeton02)
 		{
-			System.out.println("两个实例相同");
+			System.out.println("两个实例相同"+"他们的hashcode也相同"); 
 		}
 		
 	}
