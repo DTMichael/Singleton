@@ -1,5 +1,6 @@
 package type2;
 
+//懒汉式，线程不安全
 public class SingLeton03 {
 	private static SingLeton03 instance;
 	private SingLeton03() {}
