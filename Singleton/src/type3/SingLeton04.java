@@ -13,7 +13,7 @@ public class SingLeton04 {
 			{
 				if(instance==null)
 				{
-					instance=new SingLeton04();
+					instance=new SingLeton04();//
 				}
 			}
 		}
